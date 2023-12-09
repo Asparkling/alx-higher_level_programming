@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-def print_integers_reversed(numbers):
-    for i in range(len(numbers)-1, -1, -1):
-        if isinstance(numbers[i], int):
-            print(numbers[i])
+def print_reversed_list_integer(my_list=[]):
+    if my_list:
+        for elm in my_list[::-1]:
+            print("{:d}".format(elm))
+

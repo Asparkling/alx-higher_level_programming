@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def print_integers(numbers):
-    for num in numbers:
-        if isinstance(num, int):
-            print(num)
+def print_list_integer(my_list=[]):
+    for i in my_list:
+        print("{:d}".format(i))
+
